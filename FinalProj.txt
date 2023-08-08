@@ -1,0 +1,418 @@
+Script started on Fri 16 Dec 2022 07:46:45 PM PST
+]0;white150@empress:~/CS471Progs/FinalProj[?1034h[white150@empress FinalProj]$ g++ Hanoi.cpp
+]0;white150@empress:~/CS471Progs/FinalProj[white150@empress FinalProj]$ ./a.out
+>>>Expand:
+[ 3 2 1 ][ ][ ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ 1 ][ ]
+g = 1 h = 3 f = 4
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+a
+>>>Expand:
+[ 3 2 ][ 1 ][ ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ 1 ][ 2 ]
+g = 2 h = 3 f = 5
+a
+>>>Expand:
+[ 3 ][ 1 ][ 2 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 1 ][ ][ 2 ]
+g = 3 h = 3 f = 6
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+a
+>>>Expand:
+[ 3 1 ][ ][ 2 ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 3 1 ][ 2 ][ ]
+g = 4 h = 3 f = 7
+a
+>>>Expand:
+[ 3 1 ][ 2 ][ ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 3 ][ 2 1 ][ ]
+g = 5 h = 3 f = 8
+[ 3 ][ 2 ][ 1 ]
+g = 5 h = 3 f = 8
+a
+>>>Expand:
+[ 3 ][ 2 1 ][ ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 3 ][ 2 ][ 1 ]
+g = 5 h = 3 f = 8
+[ ][ 2 1 ][ 3 ]
+g = 6 h = 2 f = 8
+a
+>>>Expand:
+[ 3 ][ 2 ][ 1 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ ][ 2 1 ][ 3 ]
+g = 6 h = 2 f = 8
+a
+>>>Expand:
+[ ][ 2 1 ][ 3 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ 2 ][ 3 ]
+g = 7 h = 2 f = 9
+[ ][ 2 ][ 3 1 ]
+g = 7 h = 2 f = 9
+a
+>>>Expand:
+[ 1 ][ 2 ][ 3 ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ ][ 2 ][ 3 1 ]
+g = 7 h = 2 f = 9
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+a
+>>>Expand:
+[ ][ 2 ][ 3 1 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ ][ 3 1 ]
+g = 8 h = 2 f = 10
+a
+>>>Expand:
+[ 2 ][ ][ 3 1 ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 1 ][ ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+a
+>>>Expand:
+[ 2 1 ][ ][ 3 ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 1 ][ 3 ][ ]
+g = 10 h = 3 f = 13
+a
+>>>Expand:
+[ 2 1 ][ 3 ][ ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 1 ][ ]
+g = 11 h = 3 f = 14
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+a
+>>>Expand:
+[ 2 ][ 3 1 ][ ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+[ ][ 3 1 ][ 2 ]
+g = 12 h = 3 f = 15
+a
+>>>Expand:
+[ ][ 3 1 ][ 2 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+[ 1 ][ 3 ][ 2 ]
+g = 13 h = 3 f = 16
+[ ][ 3 ][ 2 1 ]
+g = 13 h = 3 f = 16
+a
+>>>Expand:
+[ 1 ][ 3 ][ 2 ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+[ ][ 3 ][ 2 1 ]
+g = 13 h = 3 f = 16
+[ 1 ][ 3 2 ][ ]
+g = 14 h = 3 f = 17
+a
+>>>Expand:
+[ 1 ][ 3 2 ][ ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+[ ][ 3 ][ 2 1 ]
+g = 13 h = 3 f = 16
+[ ][ 3 2 1 ][ ]
+g = 15 h = 3 f = 18
+[ ][ 3 2 ][ 1 ]
+g = 15 h = 3 f = 18
+a
+>>>Expand:
+[ ][ 3 2 1 ][ ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+[ ][ 3 ][ 2 1 ]
+g = 13 h = 3 f = 16
+[ ][ 3 2 ][ 1 ]
+g = 15 h = 3 f = 18
+a
+>>>Expand:
+[ ][ 3 2 ][ 1 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+[ ][ 3 ][ 2 1 ]
+g = 13 h = 3 f = 16
+a
+>>>Expand:
+[ ][ 3 ][ 2 1 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+[ 2 ][ 3 ][ 1 ]
+g = 11 h = 3 f = 14
+a
+>>>Expand:
+[ 2 ][ 3 ][ 1 ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 2'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 3 to Disk on Peg 2'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ 2 ][ 1 ][ 3 ]
+g = 9 h = 2 f = 11
+a
+>>>Expand:
+[ 2 ][ 1 ][ 3 ]
+
+Considering the Move 'Disk on Peg 1 to Disk on Peg 3'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Frontier is:
+[ 3 2 ][ ][ 1 ]
+g = 1 h = 3 f = 4
+[ 3 ][ ][ 2 1 ]
+g = 3 h = 3 f = 6
+[ 1 ][ ][ 3 2 ]
+g = 8 h = 1 f = 9
+[ ][ 1 ][ 3 2 ]
+g = 10 h = 1 f = 11
+a
+>>>Expand:
+[ ][ 1 ][ 3 2 ]
+
+Considering the Move 'Disk on Peg 2 to Disk on Peg 1'!
+Considering the Move 'Disk on Peg 2 to Disk on Peg 3'!
+Reached Goal State: [ ], [ ], [ 3, 2, 1 ]
+Displaying Path From Goal to Initial (Reverse Order) 
+
+[ ][ ][ 3 2 1 ]
+
+[ ][ 1 ][ 3 2 ]
+
+[ 2 ][ 1 ][ 3 ]
+
+[ 2 ][ ][ 3 1 ]
+
+[ ][ 2 ][ 3 1 ]
+
+[ ][ 2 1 ][ 3 ]
+
+[ 3 ][ 2 1 ][ ]
+
+[ 3 1 ][ 2 ][ ]
+
+[ 3 1 ][ ][ 2 ]
+
+[ 3 ][ 1 ][ 2 ]
+
+[ 3 2 ][ 1 ][ ]
+
+[ 3 2 1 ][ ][ ]
+]0;white150@empress:~/CS471Progs/FinalProj[white150@empress FinalProj]$ exit
+exit
+
+Script done on Fri 16 Dec 2022 07:47:52 PM PST
